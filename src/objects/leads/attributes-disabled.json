@@ -1,0 +1,86 @@
+{
+  "asinRevenueScreenshot": {
+    "database": {
+      "columnName": "asinRevenueScreenshot",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASIN Revenue Screenshot",
+      "description": "Screenshot of ASIN revenue",
+      "api_slug": "asin_revenue_screenshot",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c39dec6a-0a92-4994-9e35-777b1c2211db"
+    }
+  },
+  "competitorAsinRevenueScreenshot": {
+    "database": {
+      "columnName": "competitorAsinRevenueScreenshot",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Competitor ASIN Revenue Screenshot",
+      "description": "Screenshot of competitor ASIN revenue",
+      "api_slug": "competitor_asin_revenue_screenshot",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b733513b-7925-4cce-895d-e6cb12e316e9"
+    }
+  },
+  "dateOfCallScreenshot": {
+    "database": {
+      "columnName": "dateOfCallScreenshot",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Date of Call Screenshot",
+      "description": "Screenshot of the call date",
+      "api_slug": "date_of_call_screenshot",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "cf651010-89e1-4313-912e-5d8f29a70925"
+    }
+  },
+  "responseDateCallScreenshot": {
+    "database": {
+      "columnName": "responseDateCallScreenshot",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Response Date Call Screenshot",
+      "description": "Screenshot of the response date call",
+      "api_slug": "response_date_call_screenshot",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1e72b720-19cd-4cf5-a670-b8090e8ea337"
+    }
+  }
+}

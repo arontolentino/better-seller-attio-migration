@@ -1,0 +1,635 @@
+{
+  "userId": {
+    "database": {
+      "columnName": "userId",
+      "dataType": "uuid",
+      "isNullable": false,
+      "isUnique": true,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "User ID",
+      "description": "Unique identifier for the user",
+      "api_slug": "user_id",
+      "type": "text",
+      "is_required": true,
+      "is_unique": true,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "dda9c386-b668-4fec-b711-4b244181b4d8"
+    }
+  },
+  "firstName": {
+    "database": {
+      "columnName": "firstName",
+      "dataType": "character varying",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "First Name",
+      "description": "First name of the user",
+      "api_slug": "first_name",
+      "type": "text",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e09b1f1d-97f0-4e30-aac8-5304e31fdf8d"
+    }
+  },
+  "lastName": {
+    "database": {
+      "columnName": "lastName",
+      "dataType": "character varying",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Last Name",
+      "description": "Last name of the user",
+      "api_slug": "last_name",
+      "type": "text",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "3b4b7663-8398-40a5-abc5-7edcc35271c0"
+    }
+  },
+  "email": {
+    "database": {
+      "columnName": "email",
+      "dataType": "character varying",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Email",
+      "description": "Email address of the user",
+      "api_slug": "email",
+      "type": "text",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c15aeb65-0d4d-4ddc-9211-e7c52d18de61"
+    }
+  },
+  "password": {
+    "database": {
+      "columnName": "password",
+      "dataType": "character varying",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Password",
+      "description": "Hashed password of the user",
+      "api_slug": "password",
+      "type": "text",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c107c6a0-df79-4893-8921-7612caf44387"
+    }
+  },
+  "resetPasswordToken": {
+    "database": {
+      "columnName": "resetPasswordToken",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Reset Password Token",
+      "description": "Token for password reset",
+      "api_slug": "reset_password_token",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9fea1e5d-3a09-430d-b376-3a53bf0be549"
+    }
+  },
+  "resetPasswordExpire": {
+    "database": {
+      "columnName": "resetPasswordExpire",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Reset Password Expire",
+      "description": "Expiration time for password reset token",
+      "api_slug": "reset_password_expire",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d1aebeed-a63e-4aec-b1d0-fe49668123fc"
+    }
+  },
+  "verifyEmailToken": {
+    "database": {
+      "columnName": "verifyEmailToken",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Verify Email Token",
+      "description": "Token for email verification",
+      "api_slug": "verify_email_token",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "de3f45be-eba7-4d55-b830-9e75de467e97"
+    }
+  },
+  "verifyEmailExpire": {
+    "database": {
+      "columnName": "verifyEmailExpire",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Verify Email Expire",
+      "description": "Expiration time for email verification token",
+      "api_slug": "verify_email_expire",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1187ee3c-1116-415b-8bc5-a4eecbfe1178"
+    }
+  },
+  "isEmailVerified": {
+    "database": {
+      "columnName": "isEmailVerified",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Is Email Verified",
+      "description": "Indicates if the email is verified",
+      "api_slug": "is_email_verified",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "2865c974-6870-4bb6-a45a-45c8b545f135"
+    }
+  },
+  "createdAt": {
+    "database": {
+      "columnName": "createdAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Member Since",
+      "description": "Date when the user first joined our platform. Derived from the database createdAt timestamp.",
+      "api_slug": "member_since",
+      "type": "timestamp",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d2ec85be-40ce-4387-b0f8-1f3c4c86506e"
+    }
+  },
+  "updatedAt": {
+    "database": {
+      "columnName": "updatedAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Updated At",
+      "description": "Date and time when the user was last updated",
+      "api_slug": "updated_at",
+      "type": "timestamp",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1bd6430d-59f0-4303-93d0-3da866e99521"
+    }
+  },
+  "roleId": {
+    "database": {
+      "columnName": "roleId",
+      "dataType": "integer",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "roles",
+      "foreignKeyReferencedColumn": "roleId"
+    },
+    "attio": {
+      "title": "Role ID",
+      "description": "ID of the user role",
+      "api_slug": "role_id",
+      "type": "number",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4806661e-d059-4c75-8d9a-73b4fb79bfe1"
+    }
+  },
+  "trainingDate": {
+    "database": {
+      "columnName": "trainingDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Training Date",
+      "description": "Date of user training",
+      "api_slug": "training_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "53659b96-5abd-4be1-bb79-4659f45a1c3e"
+    }
+  },
+  "displayName": {
+    "database": {
+      "columnName": "displayName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Display Name",
+      "description": "Display name of the user",
+      "api_slug": "display_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "65a2f3fa-a4ff-4dc4-97bb-f354a1af2c9c"
+    }
+  },
+  "deletedAt": {
+    "database": {
+      "columnName": "deletedAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Deleted At",
+      "description": "Date and time when the user was deleted",
+      "api_slug": "deleted_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9c9316ce-5d04-4661-9321-10b781d1c19b"
+    }
+  },
+  "profilePicture": {
+    "database": {
+      "columnName": "profilePicture",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Profile Picture",
+      "description": "URL of the user profile picture",
+      "api_slug": "profile_picture",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4d9d2d43-27a5-4044-9d22-9b28a5e048a0"
+    }
+  },
+  "profileLink": {
+    "database": {
+      "columnName": "profileLink",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Profile Link",
+      "description": "Link to the user profile",
+      "api_slug": "profile_link",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "aaf692d5-261f-4604-a9a7-c703cb27b983"
+    }
+  },
+  "profileLinkExpiredAt": {
+    "database": {
+      "columnName": "profileLinkExpiredAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Profile Link Expired At",
+      "description": "Expiration date and time for the profile link",
+      "api_slug": "profile_link_expired_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c4376371-a4ce-41b4-9bf3-48a3ab7e9e7d"
+    }
+  },
+  "tenure": {
+    "database": {
+      "columnName": "tenure",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Tenure",
+      "description": "Indicates if the user has tenure",
+      "api_slug": "tenure",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a6ea09a1-6dc3-4553-a2ad-b17000c387d5"
+    }
+  },
+  "employeeCode": {
+    "database": {
+      "columnName": "employeeCode",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Employee Code",
+      "description": "Code assigned to the employee",
+      "api_slug": "employee_code",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "2017f264-2a24-477c-a8e2-0e77ac268518"
+    }
+  },
+  "hubspotUserId": {
+    "database": {
+      "columnName": "hubspotUserId",
+      "dataType": "bigint",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "HubSpot User ID",
+      "description": "ID of the user in HubSpot",
+      "api_slug": "hubspot_user_id",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a8aea738-dc3c-4170-93c4-5fe8d751ba7b"
+    }
+  },
+  "hubspotOwnerId": {
+    "database": {
+      "columnName": "hubspotOwnerId",
+      "dataType": "bigint",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "HubSpot Owner ID",
+      "description": "ID of the owner in HubSpot",
+      "api_slug": "hubspot_owner_id",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "cb7db5b4-8af9-4bac-810b-5eb630fa5d52"
+    }
+  },
+  "slackEmail": {
+    "database": {
+      "columnName": "slackEmail",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Slack Email",
+      "description": "Email used for Slack",
+      "api_slug": "slack_email",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "0c6868c8-71ca-4eb5-9aca-6dd2c4ae3ec1"
+    }
+  },
+  "passwordGenerated": {
+    "database": {
+      "columnName": "passwordGenerated",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Password Generated",
+      "description": "Indicates if the password was generated",
+      "api_slug": "password_generated",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9cba6d72-75f9-4efe-9284-689eeb43679e"
+    }
+  },
+  "supervisorId": {
+    "database": {
+      "columnName": "supervisorId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Supervisor ID",
+      "description": "ID of the supervisor",
+      "api_slug": "supervisor_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "99c9cb4d-8dc6-46c1-bdbc-b044fa8f982e"
+    }
+  },
+  "hiringDate": {
+    "database": {
+      "columnName": "hiringDate",
+      "dataType": "date",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Hiring Date",
+      "description": "Date when the user was hired",
+      "api_slug": "hiring_date",
+      "type": "date",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b52594a0-fe1f-467d-8edc-74059e6d7e58"
+    }
+  },
+  "address": {
+    "database": {
+      "columnName": "address",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Address",
+      "description": "Address of the user",
+      "api_slug": "address",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7357a4bf-5238-45fd-86eb-3280bb79f1e2"
+    }
+  },
+  "status": {
+    "database": {
+      "columnName": "status",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Status",
+      "description": "Current status of the user",
+      "api_slug": "status",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "10449c01-66a2-490f-92e1-7d50e6056d17"
+    }
+  },
+  "invitedAt": {
+    "database": {
+      "columnName": "invitedAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Invited At",
+      "description": "Date and time when the user was invited",
+      "api_slug": "invited_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "5d1d277d-c794-4190-a6d5-d4a5405583cb"
+    }
+  }
+}

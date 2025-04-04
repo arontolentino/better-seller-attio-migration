@@ -1,0 +1,1492 @@
+{
+  "agencyClientId": {
+    "database": {
+      "columnName": "agencyClientId",
+      "dataType": "uuid",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Agency Client ID",
+      "description": "Unique identifier for the agency client",
+      "api_slug": "agency_client_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b2deefcf-c82a-4ca8-9b00-9d52c83d18c1"
+    }
+  },
+  "accountId": {
+    "database": {
+      "columnName": "accountId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "accounts",
+      "foreignKeyReferencedColumn": "accountId"
+    },
+    "attio": {
+      "title": "Account ID",
+      "description": "ID of the associated account",
+      "api_slug": "account_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9f37fd50-5063-4fde-a07e-074374a3f624"
+    }
+  },
+  "siEmail": {
+    "database": {
+      "columnName": "siEmail",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "SI Email",
+      "description": "Email address for service inquiries",
+      "api_slug": "si_email",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d04cc483-ed4a-406d-bd4e-ec2383306d40"
+    }
+  },
+  "address": {
+    "database": {
+      "columnName": "address",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Address",
+      "description": "Physical address of the client",
+      "api_slug": "address",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7f805d69-fd41-4155-8a8d-7383bae437e2"
+    }
+  },
+  "status": {
+    "database": {
+      "columnName": "status",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Status",
+      "description": "Current status of the agency client",
+      "api_slug": "status",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e0c3452a-2fee-4928-9575-4066cb4187aa"
+    }
+  },
+  "client": {
+    "database": {
+      "columnName": "client",
+      "dataType": "character varying",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Client",
+      "description": "Name of the client",
+      "api_slug": "client",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "61341369-fa41-42c4-be0a-110a808a48b3"
+    }
+  },
+  "website": {
+    "database": {
+      "columnName": "website",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Website",
+      "description": "Client's website URL",
+      "api_slug": "website",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "fb72bba5-c805-4476-83bf-ab0a5a03cbf8"
+    }
+  },
+  "aboutUs": {
+    "database": {
+      "columnName": "aboutUs",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "About Us",
+      "description": "Information about the client",
+      "api_slug": "about_us",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "80a00c3e-9872-417f-906f-8f78d9f03e79"
+    }
+  },
+  "overview": {
+    "database": {
+      "columnName": "overview",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Overview",
+      "description": "General overview of the client",
+      "api_slug": "overview",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "cddf29b4-cf48-40c8-be01-e2092437a703"
+    }
+  },
+  "painPoints": {
+    "database": {
+      "columnName": "painPoints",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Pain Points",
+      "description": "Client's pain points",
+      "api_slug": "pain_points",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7b254942-2cb6-41a6-9074-1819892b2544"
+    }
+  },
+  "goals": {
+    "database": {
+      "columnName": "goals",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Goals",
+      "description": "Client's goals",
+      "api_slug": "goals",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7f16a7f0-9760-49c4-a600-570cd4f943e3"
+    }
+  },
+  "productCategories": {
+    "database": {
+      "columnName": "productCategories",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Product Categories",
+      "description": "Categories of the client's products",
+      "api_slug": "product_categories",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9102022b-5583-463c-b466-313998e6b398"
+    }
+  },
+  "amazonPageUrl": {
+    "database": {
+      "columnName": "amazonPageUrl",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Amazon Page URL",
+      "description": "URL of the client's Amazon page",
+      "api_slug": "amazon_page_url",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "6778bb23-ea10-4642-a85a-e2145d127a14"
+    }
+  },
+  "asinsToOptimize": {
+    "database": {
+      "columnName": "asinsToOptimize",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASINs to Optimize",
+      "description": "Amazon Standard Identification Numbers to optimize",
+      "api_slug": "asins_to_optimize",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4c441970-475b-4591-9b02-d43e7b9a2337"
+    }
+  },
+  "otherNotes": {
+    "database": {
+      "columnName": "otherNotes",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Other Notes",
+      "description": "Additional notes about the client",
+      "api_slug": "other_notes",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1b94d724-5ca1-4948-8f69-cc2cc3335aa7"
+    }
+  },
+  "defaultContactId": {
+    "database": {
+      "columnName": "defaultContactId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Default Contact ID",
+      "description": "Default contact person for the client (ID value)",
+      "api_slug": "default_contact_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "68ff9b34-a55b-43b6-ba01-1f7dd29640ba"
+    }
+  },
+  "defaultContact": {
+    "database": {
+      "columnName": "defaultContactId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Default Contact",
+      "description": "Default contact person for the client",
+      "api_slug": "default_contact",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": [
+            "members"
+          ]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "d2b1b3b9-4ec3-44ae-b81b-dc5dca64040a"
+    }
+  },
+  "hostedpageDetails": {
+    "database": {
+      "columnName": "hostedpageDetails",
+      "dataType": "jsonb",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Hosted Page Details",
+      "description": "Details of the hosted page",
+      "api_slug": "hosted_page_details",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4adc485c-2593-442d-aafb-0c3bfeb2ed6d"
+    }
+  },
+  "createdAt": {
+    "database": {
+      "columnName": "createdAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "DB Created At",
+      "description": "Original database timestamp when the record was created",
+      "api_slug": "db_created_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ff838406-a2dc-4f9c-80fc-e865f864ca2c"
+    }
+  },
+  "updatedAt": {
+    "database": {
+      "columnName": "updatedAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Updated At",
+      "description": "Date and time when the record was last updated",
+      "api_slug": "updated_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "86715b7a-dad3-418a-ac95-b6e37cd3b032"
+    }
+  },
+  "serviceAgreementLink": {
+    "database": {
+      "columnName": "serviceAgreementLink",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Service Agreement Link",
+      "description": "Link to the service agreement",
+      "api_slug": "service_agreement_link",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ed32ea7c-e86d-4f55-a231-4e8d6a687fb9"
+    }
+  },
+  "categoryList": {
+    "database": {
+      "columnName": "categoryList",
+      "dataType": "jsonb",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Category List",
+      "description": "List of categories",
+      "api_slug": "category_list",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c4c699fd-bb1a-4496-9b24-8b1a3b4a8dc0"
+    }
+  },
+  "asinList": {
+    "database": {
+      "columnName": "asinList",
+      "dataType": "jsonb",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASIN List",
+      "description": "List of Amazon Standard Identification Numbers",
+      "api_slug": "asin_list",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "17201e4d-5e60-4043-8f6c-73cc7deb4ee9"
+    }
+  },
+  "draftCommission": {
+    "database": {
+      "columnName": "draftCommission",
+      "dataType": "jsonb",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Draft Commission",
+      "description": "Commission details in draft",
+      "api_slug": "draft_commission",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "61d995fa-eed5-49c9-9931-57c6012eee1e"
+    }
+  },
+  "zohoId": {
+    "database": {
+      "columnName": "zohoId",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Zoho ID",
+      "description": "ID in Zoho CRM",
+      "api_slug": "zoho_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "46138e49-4362-4887-ad41-2a1ef2217e6d"
+    }
+  },
+  "invoiceEmails": {
+    "database": {
+      "columnName": "invoiceEmails",
+      "dataType": "jsonb",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Invoice Emails",
+      "description": "Email addresses for invoices",
+      "api_slug": "invoice_emails",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a7b09901-96c4-4316-a71e-a0ab8f5b5dbe"
+    }
+  },
+  "phone": {
+    "database": {
+      "columnName": "phone",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Phone",
+      "description": "Phone number of the client",
+      "api_slug": "phone",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "06f8fc88-c4c8-4728-b199-f57b4de1e409"
+    }
+  },
+  "cellId": {
+    "database": {
+      "columnName": "cellId",
+      "dataType": "integer",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Cell ID",
+      "description": "ID of the cell",
+      "api_slug": "cell_id",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "589aaa3c-ae5f-4333-bdc2-4b2a8615131e"
+    }
+  },
+  "contractSigned": {
+    "database": {
+      "columnName": "contractSigned",
+      "dataType": "date",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Contract Signed",
+      "description": "Date when the contract was signed",
+      "api_slug": "contract_signed",
+      "type": "date",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7e743ccc-1031-4674-85d0-a9d0655686e5"
+    }
+  },
+  "contactName": {
+    "database": {
+      "columnName": "contactName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Contact Name",
+      "description": "Name of the primary contact",
+      "api_slug": "contact_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7899e5cd-267e-4491-9865-e959125f4f41"
+    }
+  },
+  "contactName2": {
+    "database": {
+      "columnName": "contactName2",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Contact Name 2",
+      "description": "Name of the secondary contact",
+      "api_slug": "contact_name_2",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "cdaf2352-50e2-42b7-a55b-f95d77c0de1c"
+    }
+  },
+  "primaryEmail": {
+    "database": {
+      "columnName": "primaryEmail",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Primary Email",
+      "description": "Primary email address",
+      "api_slug": "primary_email",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ed2fd22a-ee6e-4b11-b135-f430d296c848"
+    }
+  },
+  "secondaryEmail": {
+    "database": {
+      "columnName": "secondaryEmail",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Secondary Email",
+      "description": "Secondary email address",
+      "api_slug": "secondary_email",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "bcb80d75-2583-4e9c-9986-5bb12907b5f0"
+    }
+  },
+  "thirdEmail": {
+    "database": {
+      "columnName": "thirdEmail",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Third Email",
+      "description": "Third email address",
+      "api_slug": "third_email",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "741b1ea8-8d15-4909-b7c4-afcd1cdb0561"
+    }
+  },
+  "service": {
+    "database": {
+      "columnName": "service",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Service",
+      "description": "Service provided to the client",
+      "api_slug": "service",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "26a6c68e-3a38-40d2-9440-9a4c68b7b239"
+    }
+  },
+  "accountStatus": {
+    "database": {
+      "columnName": "accountStatus",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Account Status",
+      "description": "Status of the client account",
+      "api_slug": "account_status",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4d48f3fc-2ec7-4960-836b-1c05649b6158"
+    }
+  },
+  "deletedAt": {
+    "database": {
+      "columnName": "deletedAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Deleted At",
+      "description": "Date and time when the record was deleted",
+      "api_slug": "deleted_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "673f8037-436d-4342-929e-f832c561d2d2"
+    }
+  },
+  "draftMarketplace": {
+    "database": {
+      "columnName": "draftMarketplace",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Draft Marketplace",
+      "description": "Marketplace in draft",
+      "api_slug": "draft_marketplace",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ca917add-02b6-4b54-ad82-ed654d75c517"
+    }
+  },
+  "cancelledAt": {
+    "database": {
+      "columnName": "cancelledAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Cancelled At",
+      "description": "Date and time when the client was cancelled",
+      "api_slug": "cancelled_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "10b894f2-fe0e-4b1d-8742-540482fa78b1"
+    }
+  },
+  "noCommission": {
+    "database": {
+      "columnName": "noCommission",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "No Commission",
+      "description": "Indicates if no commission is applied",
+      "api_slug": "no_commission",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ba5dc2f2-89ff-4678-a8ed-66c0136c8f3c"
+    }
+  },
+  "noCommissionReason": {
+    "database": {
+      "columnName": "noCommissionReason",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "No Commission Reason",
+      "description": "Reason for no commission",
+      "api_slug": "no_commission_reason",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a21e4231-3d8d-4f76-b7a5-5c2e39814c9b"
+    }
+  },
+  "googleDriveLink": {
+    "database": {
+      "columnName": "googleDriveLink",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Google Drive Link",
+      "description": "Link to Google Drive folder",
+      "api_slug": "google_drive_link",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4cbe723b-1e83-4ae1-a570-fec66a08b389"
+    }
+  },
+  "profilePicture": {
+    "database": {
+      "columnName": "profilePicture",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Profile Picture",
+      "description": "URL to profile picture",
+      "api_slug": "profile_picture",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "2bcc893e-d9dd-435b-ad51-9eef9b45bc3f"
+    }
+  },
+  "profileLink": {
+    "database": {
+      "columnName": "profileLink",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Profile Link",
+      "description": "Link to client profile",
+      "api_slug": "profile_link",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "911b3c6e-a2b4-4cda-b63e-695ae1a77d28"
+    }
+  },
+  "profileLinkExpiredAt": {
+    "database": {
+      "columnName": "profileLinkExpiredAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Profile Link Expired At",
+      "description": "Date and time when the profile link expired",
+      "api_slug": "profile_link_expired_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "299d84e5-f68e-424e-af62-2bb5cca065b5"
+    }
+  },
+  "notifiedSlackConversionChannel": {
+    "database": {
+      "columnName": "notifiedSlackConversionChannel",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Notified Slack Conversion Channel",
+      "description": "Indicates if Slack conversion channel was notified",
+      "api_slug": "notified_slack_conversion_channel",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "0025359e-8566-4508-9b25-20cdfb908c0f"
+    }
+  },
+  "commissionDescription": {
+    "database": {
+      "columnName": "commissionDescription",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Commission Description",
+      "description": "Description of the commission structure",
+      "api_slug": "commission_description",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e566ccbc-fe80-4000-b38e-9e78c4a6d0ec"
+    }
+  },
+  "contactName3": {
+    "database": {
+      "columnName": "contactName3",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Contact Name 3",
+      "description": "Name of the tertiary contact",
+      "api_slug": "contact_name_3",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "81e1c439-1d81-4ee6-a45a-4e5d04c88b15"
+    }
+  },
+  "address2": {
+    "database": {
+      "columnName": "address2",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Address 2",
+      "description": "Secondary address line",
+      "api_slug": "address_2",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "6100850b-6739-4bbe-8a4f-a1d9c77d9b3c"
+    }
+  },
+  "city": {
+    "database": {
+      "columnName": "city",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "City",
+      "description": "City of the client",
+      "api_slug": "city",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7d738225-4d73-420c-8e28-f8f9d118b6f9"
+    }
+  },
+  "state": {
+    "database": {
+      "columnName": "state",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "State",
+      "description": "State or province of the client",
+      "api_slug": "state",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b72dd7a0-dd7d-4a44-a126-811fb26f7b00"
+    }
+  },
+  "zip": {
+    "database": {
+      "columnName": "zip",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ZIP",
+      "description": "ZIP or postal code",
+      "api_slug": "zip",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "6fd1b66c-72d6-4f34-8690-edc19b945f8e"
+    }
+  },
+  "country": {
+    "database": {
+      "columnName": "country",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Country",
+      "description": "Country of the client",
+      "api_slug": "country",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a3bd150a-094f-46f4-a563-69f3e6ad3ccf"
+    }
+  },
+  "fromSi": {
+    "database": {
+      "columnName": "fromSi",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "From SI",
+      "description": "Indicates if the client came from SI",
+      "api_slug": "from_si",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "2356b6df-202f-449a-9da5-bfa7c84e0563"
+    }
+  },
+  "street": {
+    "database": {
+      "columnName": "street",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Street",
+      "description": "Street address",
+      "api_slug": "street",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "129987f9-36ae-4344-882f-3b5fb80c4bb5"
+    }
+  },
+  "displayName": {
+    "database": {
+      "columnName": "displayName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Display Name",
+      "description": "Name to display for the client",
+      "api_slug": "display_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "693f3e46-5bf7-4d51-8880-bcf0079a0312"
+    }
+  },
+  "slackChannelId": {
+    "database": {
+      "columnName": "slackChannelId",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Slack Channel ID",
+      "description": "ID of the Slack channel",
+      "api_slug": "slack_channel_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b83b8ee4-d828-430f-9eae-fb8293905e88"
+    }
+  },
+  "isWelcomeEmailSent": {
+    "database": {
+      "columnName": "isWelcomeEmailSent",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Is Welcome Email Sent",
+      "description": "Indicates if welcome email was sent",
+      "api_slug": "is_welcome_email_sent",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "378fd1c5-0e60-4776-abc6-accbfbd4ae7d"
+    }
+  },
+  "btCustomerId": {
+    "database": {
+      "columnName": "btCustomerId",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "BT Customer ID",
+      "description": "Braintree customer ID",
+      "api_slug": "bt_customer_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "46f770df-95e5-49b8-afa4-89145e5aeb76"
+    }
+  },
+  "zhCustomerId": {
+    "database": {
+      "columnName": "zhCustomerId",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ZH Customer ID",
+      "description": "Zoho customer ID",
+      "api_slug": "zh_customer_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ce87018c-ca10-47a3-b42c-5be611b6e1fd"
+    }
+  },
+  "paymentMode": {
+    "database": {
+      "columnName": "paymentMode",
+      "dataType": "USER_DEFINED",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Payment Mode",
+      "description": "Mode of payment",
+      "api_slug": "payment_mode",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7fdeaf1f-97f7-4f1e-ade2-1f557f77c99f"
+    }
+  },
+  "isOnboardingEmailSent": {
+    "database": {
+      "columnName": "isOnboardingEmailSent",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Is Onboarding Email Sent",
+      "description": "Indicates if onboarding email was sent",
+      "api_slug": "is_onboarding_email_sent",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "73ae50ce-2f5e-462c-8ee0-ffd52ce43b63"
+    }
+  },
+  "terminatedAt": {
+    "database": {
+      "columnName": "terminatedAt",
+      "dataType": "date",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Terminated At",
+      "description": "Date when the client was terminated",
+      "api_slug": "terminated_at",
+      "type": "date",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "769fd4ba-7f3c-487e-b3de-b4c8b7810ae1"
+    }
+  },
+  "subscriptionPaymentOption": {
+    "database": {
+      "columnName": "subscriptionPaymentOption",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Subscription Payment Option",
+      "description": "Payment option for subscription",
+      "api_slug": "subscription_payment_option",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "21fc44a4-8781-40ee-9c6c-aca801359b1a"
+    }
+  },
+  "isWelcomeEmailInQueue": {
+    "database": {
+      "columnName": "isWelcomeEmailInQueue",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Is Welcome Email In Queue",
+      "description": "Indicates if welcome email is in queue",
+      "api_slug": "is_welcome_email_in_queue",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a7aecfe6-83e2-4b42-9e8a-b2fcdc52eb9d"
+    }
+  },
+  "isOnboardingEmailInQueue": {
+    "database": {
+      "columnName": "isOnboardingEmailInQueue",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Is Onboarding Email In Queue",
+      "description": "Indicates if onboarding email is in queue",
+      "api_slug": "is_onboarding_email_in_queue",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b0002ace-88a1-451c-a18a-8fe0fe86c467"
+    }
+  },
+  "activeCampaignContactId": {
+    "database": {
+      "columnName": "activeCampaignContactId",
+      "dataType": "bigint",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Active Campaign Contact ID",
+      "description": "ID of the contact in Active Campaign",
+      "api_slug": "active_campaign_contact_id",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "550b5bb0-1423-4d41-9623-ef05940480ea"
+    }
+  },
+  "onboardedDate": {
+    "database": {
+      "columnName": "onboardedDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Onboarded Date",
+      "description": "Date when the client was onboarded",
+      "api_slug": "onboarded_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "84d3dafb-539a-4f21-b8a9-de1b9fc88708"
+    }
+  },
+  "onboardingDate": {
+    "database": {
+      "columnName": "onboardingDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Onboarding Date",
+      "description": "Date of onboarding",
+      "api_slug": "onboarding_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "27225580-2865-422d-a1df-168d69e2b28d"
+    }
+  },
+  "siActiveCampaignContactId": {
+    "database": {
+      "columnName": "siActiveCampaignContactId",
+      "dataType": "bigint",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "SI Active Campaign Contact ID",
+      "description": "Service Inquiry Active Campaign Contact ID",
+      "api_slug": "si_active_campaign_contact_id",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "cd43686d-c120-43ad-95d3-747f467410d9"
+    }
+  }
+}

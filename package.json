@@ -1,0 +1,19 @@
+{
+  "name": "better-seller-attio-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "dotenv": "^16.4.7",
+    "p-limit": "^6.2.0",
+    "pg": "^8.13.3",
+    "winston": "^3.17.0"
+  }
+}

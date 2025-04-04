@@ -1,0 +1,3856 @@
+{
+  "leadId": {
+    "database": {
+      "columnName": "leadId",
+      "dataType": "uuid",
+      "isNullable": false,
+      "isUnique": true,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead ID",
+      "description": "Unique identifier for the lead",
+      "api_slug": "lead_id",
+      "type": "text",
+      "is_required": true,
+      "is_unique": true,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c4881a06-b19c-4960-b8b0-d639712c3bee"
+    }
+  },
+  "sentFromAcct": {
+    "database": {
+      "columnName": "sentFromAcct",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Sent From Account",
+      "description": "Account from which the lead was sent",
+      "api_slug": "sent_from_account",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e8ea64ba-b8be-42b3-bd21-9c2a13b4ba3c"
+    }
+  },
+  "lead": {
+    "database": {
+      "columnName": "lead",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead",
+      "description": "Name of the lead",
+      "api_slug": "lead",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "65fb3562-f80a-4479-abad-c66d3904e0a2"
+    }
+  },
+  "title": {
+    "database": {
+      "columnName": "title",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Title",
+      "description": "Title of the lead",
+      "api_slug": "title",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4c825cfb-9d8b-476c-a488-2aa0e814c982"
+    }
+  },
+  "companyName": {
+    "database": {
+      "columnName": "companyName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Company Name",
+      "description": "Name of the company",
+      "api_slug": "company_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9a026a4a-9873-419e-9723-4bd1ed36207e"
+    }
+  },
+  "companyLI": {
+    "database": {
+      "columnName": "companyLI",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Company LinkedIn",
+      "description": "LinkedIn profile of the company",
+      "api_slug": "company_linkedin",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "21525d2c-d8e1-4344-9187-bd748bace07b"
+    }
+  },
+  "website": {
+    "database": {
+      "columnName": "website",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Website",
+      "description": "Website URL of the company",
+      "api_slug": "website",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c44fb6bb-3497-40ff-a2d4-5f0367e7962f"
+    }
+  },
+  "leadType": {
+    "database": {
+      "columnName": "leadType",
+      "dataType": "character varying",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead Type",
+      "description": "Type of lead",
+      "api_slug": "lead_type",
+      "type": "text",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "f4f8af95-f2f8-4e37-a09e-43b2efd572cd"
+    }
+  },
+  "country": {
+    "database": {
+      "columnName": "country",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Country",
+      "description": "Country of the lead",
+      "api_slug": "country",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "773daf3e-35e3-4aa4-be25-3bb7a3d99229"
+    }
+  },
+  "leadQuality": {
+    "database": {
+      "columnName": "leadQuality",
+      "dataType": "character varying",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead Quality",
+      "description": "Quality rating of the lead",
+      "api_slug": "lead_quality",
+      "type": "text",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "3bf52221-0857-4a49-b693-4869d806a668"
+    }
+  },
+  "amzStoreFBAstoreFront": {
+    "database": {
+      "columnName": "amzStoreFBAstoreFront",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Amazon Store FBA Storefront",
+      "description": "Amazon FBA storefront URL",
+      "api_slug": "amz_store_fba_storefront",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "98500b94-131c-4c33-a23c-46268c013983"
+    }
+  },
+  "leadScreenShotURL": {
+    "database": {
+      "columnName": "leadScreenShotURL",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead Screenshot URL",
+      "description": "URL of the lead screenshot",
+      "api_slug": "lead_screenshot_url",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "32e73101-b0b3-4402-b92e-c59a186e7713"
+    }
+  },
+  "competitorScreenShotURL": {
+    "database": {
+      "columnName": "competitorScreenShotURL",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Competitor Screenshot URL",
+      "description": "URL of the competitor screenshot",
+      "api_slug": "competitor_screenshot_url",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ac79b283-60f5-4406-806a-7d4fd975269c"
+    }
+  },
+  "linkedInProfileURL": {
+    "database": {
+      "columnName": "linkedInProfileURL",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "LinkedIn Profile URL",
+      "description": "URL of the LinkedIn profile",
+      "api_slug": "linkedin_profile_url",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "bba37758-8cb6-431a-9606-e5f1c64f52ff"
+    }
+  },
+  "leadPhotoURL": {
+    "database": {
+      "columnName": "leadPhotoURL",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead Photo URL",
+      "description": "URL of the lead's photo",
+      "api_slug": "lead_photo_url",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d380b536-a25d-43b4-aae2-833a2a309cb1"
+    }
+  },
+  "remarks": {
+    "database": {
+      "columnName": "remarks",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Remarks",
+      "description": "Additional remarks about the lead",
+      "api_slug": "remarks",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "6c3af221-1387-4ec2-8057-42f32fb74441"
+    }
+  },
+  "salesRepId": {
+    "database": {
+      "columnName": "salesRep",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Sales Representative ID",
+      "description": "Sales representative assigned to the lead (ID value)",
+      "api_slug": "sales_rep_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9f2abc3d-ca46-4104-97c3-06aedc37539c"
+    }
+  },
+  "salesRep": {
+    "database": {
+      "columnName": "salesRep",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Sales Representative",
+      "description": "Sales representative assigned to the lead",
+      "api_slug": "sales_rep",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "d37a849f-f143-4fc7-a33c-85e07f80f034"
+    }
+  },
+  "processedById": {
+    "database": {
+      "columnName": "processedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Processed By ID",
+      "description": "User who processed the lead",
+      "api_slug": "processed_by_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "82918c4b-64d3-4a4b-a57b-a87e53f05bf3"
+    }
+  },
+  "processedBy": {
+    "database": {
+      "columnName": "processedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Processed By",
+      "description": "User who processed the lead",
+      "api_slug": "processed_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "dd5fd42f-0c24-4700-8f42-e6170b18f25f"
+    }
+  },
+  "typeOfResponse": {
+    "database": {
+      "columnName": "typeOfResponse",
+      "dataType": "text",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Type of Response",
+      "description": "Type of response received",
+      "api_slug": "type_of_response",
+      "type": "text",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "50cd01c8-2560-46bc-8af9-d2cf6638398b"
+    }
+  },
+  "messageOverview": {
+    "database": {
+      "columnName": "messageOverview",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Message Overview",
+      "description": "Overview of the message",
+      "api_slug": "message_overview",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "6a29cc9b-a83e-40b8-8afc-2559af336d9c"
+    }
+  },
+  "position": {
+    "database": {
+      "columnName": "position",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Position",
+      "description": "Position of the lead",
+      "api_slug": "position",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "8da8f70b-6a77-4f31-8bf5-a86e21a99cec"
+    }
+  },
+  "liAccount": {
+    "database": {
+      "columnName": "liAccount",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "LinkedIn Account",
+      "description": "LinkedIn account details",
+      "api_slug": "linkedin_account",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d0288392-34ae-4cd8-acf2-a46e7a76b6c3"
+    }
+  },
+  "status": {
+    "database": {
+      "columnName": "status",
+      "dataType": "character varying",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Status",
+      "description": "Current status of the lead",
+      "api_slug": "status",
+      "type": "text",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "25a843fc-aca1-4294-a7be-ef61fb2dcf53"
+    }
+  },
+  "dateBooked": {
+    "database": {
+      "columnName": "dateBooked",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Date Booked",
+      "description": "Date when the lead was booked",
+      "api_slug": "date_booked",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ebcb79ff-d4f2-486f-9749-6b98fde49977"
+    }
+  },
+  "dateOfCall": {
+    "database": {
+      "columnName": "dateOfCall",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Date of Call",
+      "description": "Date of the call with the lead",
+      "api_slug": "date_of_call",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "61aec707-0ad8-4632-ac08-0f34f7c40167"
+    }
+  },
+  "dateTimeOfResponse": {
+    "database": {
+      "columnName": "dateTimeOfResponse",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Date Time of Response",
+      "description": "Date and time of the response",
+      "api_slug": "date_time_of_response",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9122c492-726b-4dc6-aa45-865b9e5a7e67"
+    }
+  },
+  "dateTimeWeResponded": {
+    "database": {
+      "columnName": "dateTimeWeResponded",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Date Time We Responded",
+      "description": "Date and time when we responded",
+      "api_slug": "date_time_we_responded",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e17817b9-5c6d-4946-afe8-fbaa09df897b"
+    }
+  },
+  "createdAt": {
+    "database": {
+      "columnName": "createdAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Created At",
+      "description": "Date and time when the lead was created",
+      "api_slug": "created_at",
+      "type": "timestamp",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "6f48be76-1872-4067-94e5-2f0859d0ddd8"
+    }
+  },
+  "updatedAt": {
+    "database": {
+      "columnName": "updatedAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Updated At",
+      "description": "Date and time when the lead was last updated",
+      "api_slug": "updated_at",
+      "type": "timestamp",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "88c1d4b1-f701-4164-98d0-ed145e2fabd0"
+    }
+  },
+  "pitchedDate": {
+    "database": {
+      "columnName": "pitchedDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Pitched Date",
+      "description": "Date when the lead was pitched",
+      "api_slug": "pitched_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "aa028bd6-5b2c-444f-a0d7-4ae461717663"
+    }
+  },
+  "currentEarnings": {
+    "database": {
+      "columnName": "currentEarnings",
+      "dataType": "numeric",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Current Earnings",
+      "description": "Current earnings of the lead",
+      "api_slug": "current_earnings",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "de8cfcfc-7ecc-4678-b392-2e892acd7111"
+    }
+  },
+  "revenue": {
+    "database": {
+      "columnName": "revenue",
+      "dataType": "numeric",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Revenue",
+      "description": "Revenue generated from the lead",
+      "api_slug": "revenue",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "38c741bd-151c-4e99-bf0a-a882a6ac2f99"
+    }
+  },
+  "competitorBrandName": {
+    "database": {
+      "columnName": "competitorBrandName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Competitor Brand Name",
+      "description": "Name of the competitor brand",
+      "api_slug": "competitor_brand_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4dbe9ee1-7bd5-45ec-bd2e-153a18076e56"
+    }
+  },
+  "competitorSalesUnits": {
+    "database": {
+      "columnName": "competitorSalesUnits",
+      "dataType": "integer",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Competitor Sales Units",
+      "description": "Number of sales units for the competitor",
+      "api_slug": "competitor_sales_units",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "3a1df483-4c10-46cf-afae-065bd222bb0d"
+    }
+  },
+  "leadsRepId": {
+    "database": {
+      "columnName": "leadsRep",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Leads Representative ID",
+      "description": "UUID of the leads representative",
+      "api_slug": "leads_rep_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "090ad99d-bb85-4b72-9a7d-4503a0322b71"
+    }
+  },
+  "leadsRep": {
+    "database": {
+      "columnName": "leadsRep",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Leads Representative",
+      "description": "Leads representative assigned to the lead",
+      "api_slug": "leads_rep",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "b3e83ece-81e1-4530-aee5-8028973ae8cd"
+    }
+  },
+  "pitchDate": {
+    "database": {
+      "columnName": "pitchDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Pitch Date",
+      "description": "Date when the pitch was made",
+      "api_slug": "pitch_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "5e99e976-7b7a-4774-a7d5-dabf6c88789d"
+    }
+  },
+  "clientCreatedById": {
+    "database": {
+      "columnName": "clientCreatedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Client Created By ID",
+      "description": "UUID of the user who created the client",
+      "api_slug": "client_created_by_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "da6d8341-90c2-420c-a25e-45ea425f00e5"
+    }
+  },
+  "clientCreatedBy": {
+    "database": {
+      "columnName": "clientCreatedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Client Created By",
+      "description": "User who created the client",
+      "api_slug": "client_created_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "f1c1a596-13bc-40b6-be78-c25e0dc4ee7b"
+    }
+  },
+  "leadGenRepName": {
+    "database": {
+      "columnName": "leadGenRepName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead Generation Representative Name",
+      "description": "Name of the lead generation representative",
+      "api_slug": "lead_gen_rep_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1776256b-ad70-47cb-b8c2-2fceccd0a115"
+    }
+  },
+  "source": {
+    "database": {
+      "columnName": "source",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Source",
+      "description": "Source of the lead",
+      "api_slug": "source",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "231a226b-626b-4d42-abde-4309bf88cf91"
+    }
+  },
+  "amazonProduct": {
+    "database": {
+      "columnName": "amazonProduct",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Amazon Product",
+      "description": "Amazon product details",
+      "api_slug": "amazon_product",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e232151c-80a7-4b7b-ace0-c94d36e89790"
+    }
+  },
+  "majorKeywordSearchPage": {
+    "database": {
+      "columnName": "majorKeywordSearchPage",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Major Keyword Search Page",
+      "description": "Major keyword search page details",
+      "api_slug": "major_keyword_search_page",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "724e38d9-3b09-4bf3-b6db-5161c02b9920"
+    }
+  },
+  "competitorsProduct": {
+    "database": {
+      "columnName": "competitorsProduct",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Competitors Product",
+      "description": "Details of the competitor's product",
+      "api_slug": "competitors_product",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "f0807752-96ae-480c-89f4-42220f95e4be"
+    }
+  },
+  "competitorsWebsite": {
+    "database": {
+      "columnName": "competitorsWebsite",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Competitors Website",
+      "description": "URL of the competitor's website",
+      "api_slug": "competitors_website",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ff166963-4746-4f85-b5eb-ca2c23668ccd"
+    }
+  },
+  "spokeTo": {
+    "database": {
+      "columnName": "spokeTo",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Spoke To",
+      "description": "Name of the person spoken to",
+      "api_slug": "spoke_to",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "ecebe914-5c98-4d85-acc8-244ec8019bb2"
+    }
+  },
+  "personsResponsible": {
+    "database": {
+      "columnName": "personsResponsible",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Persons Responsible",
+      "description": "Names of the persons responsible",
+      "api_slug": "persons_responsible",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "00ccb67c-eb18-483d-a8f1-034dcae86ef7"
+    }
+  },
+  "mainObjectivePainPoints": {
+    "database": {
+      "columnName": "mainObjectivePainPoints",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Main Objective Pain Points",
+      "description": "Main objectives and pain points",
+      "api_slug": "main_objective_pain_points",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1dff1388-0c47-4112-85c3-217fffb40eb0"
+    }
+  },
+  "otherSalesChannels": {
+    "database": {
+      "columnName": "otherSalesChannels",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Other Sales Channels",
+      "description": "Details of other sales channels",
+      "api_slug": "other_sales_channels",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a9a6b33a-e860-4021-b300-3c4472ea81b9"
+    }
+  },
+  "ppcSpend": {
+    "database": {
+      "columnName": "ppcSpend",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "PPC Spend",
+      "description": "Pay_per_click spend details",
+      "api_slug": "ppc_spend",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a96f05f7-5722-414b-b7a1-e59c4d33288f"
+    }
+  },
+  "avgACOS": {
+    "database": {
+      "columnName": "avgACOS",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Average ACOS",
+      "description": "Average Advertising Cost of Sales",
+      "api_slug": "avg_acos",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b6e293ca-5253-476a-9e46-e6e3defa29de"
+    }
+  },
+  "quote": {
+    "database": {
+      "columnName": "quote",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Quote",
+      "description": "Quote provided to the lead",
+      "api_slug": "quote",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7add99ea-97b6-4b2e-b1b4-861bb06211eb"
+    }
+  },
+  "firstCallSummary": {
+    "database": {
+      "columnName": "firstCallSummary",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "First Call Summary",
+      "description": "Summary of the first call",
+      "api_slug": "first_call_summary",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "6814d0df-d262-4a86-b6ba-7064b60b6145"
+    }
+  },
+  "serviceConditionsForOP": {
+    "database": {
+      "columnName": "serviceConditionsForOP",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Service Conditions for OP",
+      "description": "Service conditions for the opportunity",
+      "api_slug": "service_conditions_for_op",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "863b965d-66d7-412e-8388-f5e2d93a6d9b"
+    }
+  },
+  "email": {
+    "database": {
+      "columnName": "email",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Email",
+      "description": "Email address of the lead",
+      "api_slug": "email",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9be3afd7-d306-41d6-af23-7a0f77cf8e5f"
+    }
+  },
+  "otherEmails": {
+    "database": {
+      "columnName": "otherEmails",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Other Emails",
+      "description": "Additional email addresses",
+      "api_slug": "other_emails",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "8050ec8f-51fe-45a7-b885-253b8c43c530"
+    }
+  },
+  "mockListing": {
+    "database": {
+      "columnName": "mockListing",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Mock Listing",
+      "description": "Details of the mock listing",
+      "api_slug": "mock_listing",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "86334ceb-6cbd-4d7a-a3e6-2ed3c5403fe4"
+    }
+  },
+  "ownersFullName": {
+    "database": {
+      "columnName": "ownersFullName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Owner's Full Name",
+      "description": "Full name of the owner",
+      "api_slug": "owners_full_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "43af0ebb-e689-4a64-8a8f-0733c0bf168d"
+    }
+  },
+  "phoneNumber": {
+    "database": {
+      "columnName": "phoneNumber",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Phone Number",
+      "description": "Phone number of the lead",
+      "api_slug": "phone_number",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b554df78-3294-4a44-9b2b-600f702e67ca"
+    }
+  },
+  "aboutUs": {
+    "database": {
+      "columnName": "aboutUs",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "About Us",
+      "description": "Details about the company",
+      "api_slug": "about_us",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e401afb3-c9b9-4496-a10d-38bf76da0783"
+    }
+  },
+  "qualifiedFromLIAccount": {
+    "database": {
+      "columnName": "qualifiedFromLIAccount",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Qualified From LinkedIn Account",
+      "description": "LinkedIn account from which the lead was qualified",
+      "api_slug": "qualified_from_li_account",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "06b1588a-0dba-4f56-a444-e48da96ebeb6"
+    }
+  },
+  "qualifiedBy": {
+    "database": {
+      "columnName": "qualifiedBy",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Qualified By",
+      "description": "Name of the person who qualified the lead",
+      "api_slug": "qualified_by",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d937599b-8297-41fa-8ac3-d3ea1df78477"
+    }
+  },
+  "totalOfASINSAndVariations": {
+    "database": {
+      "columnName": "totalOfASINSAndVariations",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Total of ASINs and Variations",
+      "description": "Total number of ASINs and variations",
+      "api_slug": "total_of_asins_and_variations",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "01877e72-02bf-4fd0-9f24-f3782a23bc60"
+    }
+  },
+  "callRecording": {
+    "database": {
+      "columnName": "callRecording",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Call Recording",
+      "description": "URL or details of the call recording",
+      "api_slug": "call_recording",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1dc8d6d6-f4af-4eec-abf2-4f62166cfc26"
+    }
+  },
+  "productCategory": {
+    "database": {
+      "columnName": "productCategory",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Product Category",
+      "description": "Category of the product",
+      "api_slug": "product_category",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "5360a5bf-a552-49b3-b523-8660081e65a7"
+    }
+  },
+  "paymentStatus": {
+    "database": {
+      "columnName": "paymentStatus",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Payment Status",
+      "description": "Status of the payment",
+      "api_slug": "payment_status",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "f2436a7e-72c7-4d9a-8da5-2ee2e8f2f0cc"
+    }
+  },
+  "paymentType": {
+    "database": {
+      "columnName": "paymentType",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Payment Type",
+      "description": "Type of payment",
+      "api_slug": "payment_type",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "42699d3c-2dfa-4fe6-b5f9-5fd0b8ae4cbe"
+    }
+  },
+  "plan": {
+    "database": {
+      "columnName": "plan",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Plan",
+      "description": "Plan details",
+      "api_slug": "plan",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "be242895-7ab6-4baa-b2f1-22363e948914"
+    }
+  },
+  "stage": {
+    "database": {
+      "columnName": "stage",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Stage",
+      "description": "Current stage of the lead",
+      "api_slug": "stage",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e235b0e1-56e6-4b5e-b53b-f63767415a6f"
+    }
+  },
+  "averageMonthlyAmazonSales": {
+    "database": {
+      "columnName": "averageMonthlyAmazonSales",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Average Monthly Amazon Sales",
+      "description": "Average monthly sales on Amazon",
+      "api_slug": "average_monthly_amazon_sales",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c06db764-bee1-440d-9d80-d9e6cdbb2c19"
+    }
+  },
+  "averageMonthlyOutsideAmazonSales": {
+    "database": {
+      "columnName": "averageMonthlyOutsideAmazonSales",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Average Monthly Outside Amazon Sales",
+      "description": "Average monthly sales outside of Amazon",
+      "api_slug": "average_monthly_outside_amazon_sales",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "f7b99070-4662-4747-a23b-dee161c6905e"
+    }
+  },
+  "mainIssueWithAmazon": {
+    "database": {
+      "columnName": "mainIssueWithAmazon",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Main Issue With Amazon",
+      "description": "Main issues faced with Amazon",
+      "api_slug": "main_issue_with_amazon",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "58e86077-3a9e-49b9-bb70-c4b11e760a4f"
+    }
+  },
+  "podId": {
+    "database": {
+      "columnName": "podId",
+      "dataType": "integer",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "pods",
+      "foreignKeyReferencedColumn": "podId"
+    },
+    "attio": {
+      "title": "Pod ID",
+      "description": "ID of the pod",
+      "api_slug": "pod_id",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "34fe31c5-5f1f-4bf5-a419-6380aaf31091"
+    }
+  },
+  "marketplace": {
+    "database": {
+      "columnName": "marketplace",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Marketplace",
+      "description": "Marketplace where the lead operates",
+      "api_slug": "marketplace",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "553f5290-0a7d-427a-b44d-bc680ca491ee"
+    }
+  },
+  "storeFrontEarnings": {
+    "database": {
+      "columnName": "storeFrontEarnings",
+      "dataType": "numeric",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Store Front Earnings",
+      "description": "Earnings from the storefront",
+      "api_slug": "store_front_earnings",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b6398d37-ace4-4b5f-9d92-27abf6e5ba71"
+    }
+  },
+  "rejectionReasons": {
+    "database": {
+      "columnName": "rejectionReasons",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Rejection Reasons",
+      "description": "Reasons for rejection",
+      "api_slug": "rejection_reasons",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e2998e00-f51d-4e84-846f-cbd4e5c33d8c"
+    }
+  },
+  "linkedInAccountId": {
+    "database": {
+      "columnName": "linkedInAccountId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "linkedInAccounts",
+      "foreignKeyReferencedColumn": "linkedInAccountId"
+    },
+    "attio": {
+      "title": "LinkedIn Account ID",
+      "description": "Reference to the LinkedIn account",
+      "api_slug": "linkedin_account_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "0e311101-8ad8-40bb-8dcf-1ccd16a0c71f"
+    }
+  },
+  "competitorsProduct2": {
+    "database": {
+      "columnName": "competitorsProduct2",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Competitors Product 2",
+      "description": "Secondary competitor product details",
+      "api_slug": "competitors_product_2",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c8dc5e7b-882c-4a36-812a-0aa915db6ccf"
+    }
+  },
+  "address": {
+    "database": {
+      "columnName": "address",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Address",
+      "description": "Address of the lead or company",
+      "api_slug": "address",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b06c1f1e-a6b5-458b-a31b-5c154fb73583"
+    }
+  },
+  "callAppointmentDate1": {
+    "database": {
+      "columnName": "callAppointmentDate1",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Call Appointment Date 1",
+      "description": "Date of the first call appointment",
+      "api_slug": "call_appointment_date_1",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "96d9b6f5-fe53-4633-a829-76abd705374b"
+    }
+  },
+  "callAppointmentDate2": {
+    "database": {
+      "columnName": "callAppointmentDate2",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Call Appointment Date 2",
+      "description": "Date of the second call appointment",
+      "api_slug": "call_appointment_date_2",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "40427228-7162-4e6f-9b33-34084f1fc223"
+    }
+  },
+  "callAppointmentDate3": {
+    "database": {
+      "columnName": "callAppointmentDate3",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Call Appointment Date 3",
+      "description": "Date of the third call appointment",
+      "api_slug": "call_appointment_date_3",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d77228cd-3419-4e53-8f7a-fcb14f2f5194"
+    }
+  },
+  "companyAverageMonthlyRevenue": {
+    "database": {
+      "columnName": "companyAverageMonthlyRevenue",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Company Average Monthly Revenue",
+      "description": "Average monthly revenue of the company",
+      "api_slug": "company_average_monthly_revenue",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "2b2ab69d-665a-4e0d-b675-3aea4850ac06"
+    }
+  },
+  "callRecording2": {
+    "database": {
+      "columnName": "callRecording2",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Call Recording 2",
+      "description": "URL or details of the second call recording",
+      "api_slug": "call_recording_2",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "fd446b45-3db3-4e6f-8dc9-68224ab7e322"
+    }
+  },
+  "linkedinContact": {
+    "database": {
+      "columnName": "linkedinContact",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "LinkedIn Contact",
+      "description": "LinkedIn contact details",
+      "api_slug": "linkedin_contact",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "3ba03fc7-1334-4982-98d7-73ad406c09f2"
+    }
+  },
+  "decisionMakersEmail": {
+    "database": {
+      "columnName": "decisionMakersEmail",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Decision Maker's Email",
+      "description": "Email of the decision maker",
+      "api_slug": "decision_makers_email",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "8c190225-fa15-4a92-98e8-5172cac28269"
+    }
+  },
+  "instagram": {
+    "database": {
+      "columnName": "instagram",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Instagram",
+      "description": "Instagram profile or handle",
+      "api_slug": "instagram",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "bdae9f79-cb3d-4b43-ad1b-30c77412a666"
+    }
+  },
+  "facebook": {
+    "database": {
+      "columnName": "facebook",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Facebook",
+      "description": "Facebook profile or page",
+      "api_slug": "facebook",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "5a524ec9-9b7c-467c-b7de-aea224d4a8b5"
+    }
+  },
+  "subCategory1": {
+    "database": {
+      "columnName": "subCategory1",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Sub_Category 1",
+      "description": "First sub_category",
+      "api_slug": "sub_category_1",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b6cef635-df5b-4255-9873-a7589d553f11"
+    }
+  },
+  "subCategory2": {
+    "database": {
+      "columnName": "subCategory2",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Sub_Category 2",
+      "description": "Second sub_category",
+      "api_slug": "sub_category_2",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "02801cae-4c8e-437f-9080-b01e107277b6"
+    }
+  },
+  "channelPartnerType": {
+    "database": {
+      "columnName": "channelPartnerType",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Channel Partner Type",
+      "description": "Type of channel partner",
+      "api_slug": "channel_partner_type",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "0b2cf3bc-a942-4f98-8b05-ac1ded0373fa"
+    }
+  },
+  "asinMajorKeyword": {
+    "database": {
+      "columnName": "asinMajorKeyword",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASIN Major Keyword",
+      "description": "Major keyword for the ASIN",
+      "api_slug": "asin_major_keyword",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "05e61140-ad87-499a-b116-31c623787cc5"
+    }
+  },
+  "asinFullTitle": {
+    "database": {
+      "columnName": "asinFullTitle",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASIN Full Title",
+      "description": "Full title of the ASIN",
+      "api_slug": "asin_full_title",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b69044e8-0c84-49e4-88f2-21743f310a97"
+    }
+  },
+  "asinRevenueScreenshot": {
+    "database": {
+      "columnName": "asinRevenueScreenshot",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASIN Revenue Screenshot",
+      "description": "Screenshot of ASIN revenue",
+      "api_slug": "asin_revenue_screenshot",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c39dec6a-0a92-4994-9e35-777b1c2211db"
+    }
+  },
+  "competitorAsinRevenueScreenshot": {
+    "database": {
+      "columnName": "competitorAsinRevenueScreenshot",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Competitor ASIN Revenue Screenshot",
+      "description": "Screenshot of competitor ASIN revenue",
+      "api_slug": "competitor_asin_revenue_screenshot",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b733513b-7925-4cce-895d-e6cb12e316e9"
+    }
+  },
+  "asinRevenueScreenshotDateStamp": {
+    "database": {
+      "columnName": "asinRevenueScreenshotDateStamp",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASIN Revenue Screenshot Date Stamp",
+      "description": "Date stamp of the ASIN revenue screenshot",
+      "api_slug": "asin_revenue_screenshot_date_stamp",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "0cb474db-ca17-4d05-b8c7-bf302d83f34a"
+    }
+  },
+  "competitorAsinRevenueScreenshotDateStamp": {
+    "database": {
+      "columnName": "competitorAsinRevenueScreenshotDateStamp",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Competitor ASIN Revenue Screenshot Date Stamp",
+      "description": "Date stamp of the competitor ASIN revenue screenshot",
+      "api_slug": "competitor_asin_revenue_screenshot_date_stamp",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "f0a147c5-49ec-4cd0-8427-b755e95147ff"
+    }
+  },
+  "brandName": {
+    "database": {
+      "columnName": "brandName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Brand Name",
+      "description": "Name of the brand",
+      "api_slug": "brand_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "f9061798-9d55-4619-992d-4cec6afb1ed0"
+    }
+  },
+  "revisionText": {
+    "database": {
+      "columnName": "revisionText",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Revision Text",
+      "description": "Text for revision",
+      "api_slug": "revision_text",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "6d4115c5-52a9-4f07-8ab9-48813b56b7a7"
+    }
+  },
+  "leadLastName": {
+    "database": {
+      "columnName": "leadLastName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead Last Name",
+      "description": "Last name of the lead",
+      "api_slug": "lead_last_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d03f24b8-0ebc-4310-97cf-41ffe3739950"
+    }
+  },
+  "asinPrice": {
+    "database": {
+      "columnName": "asinPrice",
+      "dataType": "numeric",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASIN Price",
+      "description": "Price of the ASIN",
+      "api_slug": "asin_price",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a45ba8f8-2a70-4b47-a953-40cdc2eea413"
+    }
+  },
+  "asinReviews": {
+    "database": {
+      "columnName": "asinReviews",
+      "dataType": "integer",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASIN Reviews",
+      "description": "Number of reviews for the ASIN",
+      "api_slug": "asin_reviews",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "20add7aa-66d4-46c9-8bea-6a97082bf6c0"
+    }
+  },
+  "asin": {
+    "database": {
+      "columnName": "asin",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "ASIN",
+      "description": "Amazon Standard Identification Number",
+      "api_slug": "asin",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7e3338f7-2cd0-4235-8c96-bf204d848b89"
+    }
+  },
+  "totalRevenue": {
+    "database": {
+      "columnName": "totalRevenue",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Total Revenue",
+      "description": "Total revenue generated",
+      "api_slug": "total_revenue",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "18eefd78-385f-463c-ac86-50219c0156c1"
+    }
+  },
+  "secondaryLeadFirstName": {
+    "database": {
+      "columnName": "secondaryLeadFirstName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Secondary Lead First Name",
+      "description": "First name of the secondary lead",
+      "api_slug": "secondary_lead_first_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "3cdc138f-da1a-49bc-bfe3-523c7f284d09"
+    }
+  },
+  "secondaryLeadLastName": {
+    "database": {
+      "columnName": "secondaryLeadLastName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Secondary Lead Last Name",
+      "description": "Last name of the secondary lead",
+      "api_slug": "secondary_lead_last_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1bc3d6ec-558a-4732-9a9f-058ce13ddf07"
+    }
+  },
+  "secondaryPhoneNumber": {
+    "database": {
+      "columnName": "secondaryPhoneNumber",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Secondary Phone Number",
+      "description": "Phone number of the secondary contact",
+      "api_slug": "secondary_phone_number",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "732a774a-7f02-41f1-87ab-3bc58e1840f8"
+    }
+  },
+  "secondaryEmailAddress": {
+    "database": {
+      "columnName": "secondaryEmailAddress",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Secondary Email Address",
+      "description": "Email address of the secondary contact",
+      "api_slug": "secondary_email_address",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4dc79b82-ee7a-4d3c-b9b8-796133ed5a09"
+    }
+  },
+  "approvedDate": {
+    "database": {
+      "columnName": "approvedDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Approved Date",
+      "description": "Date when the lead was approved",
+      "api_slug": "approved_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9cb79cb1-94f6-476d-9c3e-4b28750de347"
+    }
+  },
+  "revisionDate": {
+    "database": {
+      "columnName": "revisionDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Revision Date",
+      "description": "Date of revision",
+      "api_slug": "revision_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e60bd837-5905-47e3-9ee8-96cc0e68be6c"
+    }
+  },
+  "rejectedDate": {
+    "database": {
+      "columnName": "rejectedDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Rejected Date",
+      "description": "Date when the lead was rejected",
+      "api_slug": "rejected_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "fe5f923f-6d2c-497a-8054-4c5eaf03bb2d"
+    }
+  },
+  "dateOfCallScreenshot": {
+    "database": {
+      "columnName": "dateOfCallScreenshot",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Date of Call Screenshot",
+      "description": "Screenshot of the call date",
+      "api_slug": "date_of_call_screenshot",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "cf651010-89e1-4313-912e-5d8f29a70925"
+    }
+  },
+  "responseDateCallScreenshot": {
+    "database": {
+      "columnName": "responseDateCallScreenshot",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Response Date Call Screenshot",
+      "description": "Screenshot of the response date call",
+      "api_slug": "response_date_call_screenshot",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1e72b720-19cd-4cf5-a670-b8090e8ea337"
+    }
+  },
+  "isFromOldLeads": {
+    "database": {
+      "columnName": "isFromOldLeads",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Is From Old Leads",
+      "description": "Indicates if the lead is from old leads",
+      "api_slug": "is_from_old_leads",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "38a46b3f-6817-4d1e-96d0-3fc048ee6cb8"
+    }
+  },
+  "leadSourceId": {
+    "database": {
+      "columnName": "leadSourceId",
+      "dataType": "bigint",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead Source ID",
+      "description": "ID of the lead source",
+      "api_slug": "lead_source_id",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "3cecb083-e30a-41c9-ae3c-0872904e5447"
+    }
+  },
+  "prevStatus": {
+    "database": {
+      "columnName": "prevStatus",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Previous Status",
+      "description": "Previous status of the lead",
+      "api_slug": "prev_status",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "70a21d67-622f-4f55-937c-f0d3032930e1"
+    }
+  },
+  "pitcherId": {
+    "database": {
+      "columnName": "pitcher",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Pitcher ID",
+      "description": "User who pitched the lead",
+      "api_slug": "pitcher_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e05c8d8d-dbd8-4619-a6c7-84402823c742"
+    }
+  },
+  "pitcher": {
+    "database": {
+      "columnName": "pitcher",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Pitcher",
+      "description": "User who pitched the lead",
+      "api_slug": "pitcher",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "9c84663b-7ae9-43da-b659-4f95dfcf0b5e"
+    }
+  },
+  "isInSales": {
+    "database": {
+      "columnName": "isInSales",
+      "dataType": "boolean",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Is In Sales",
+      "description": "Indicates if the lead is in sales",
+      "api_slug": "is_in_sales",
+      "type": "checkbox",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d9052f0d-1522-43ab-9966-01a0263d0973"
+    }
+  },
+  "businessName": {
+    "database": {
+      "columnName": "businessName",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Business Name",
+      "description": "Name of the business",
+      "api_slug": "business_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e6cf872a-5512-482a-8582-463b0b1aefbf"
+    }
+  },
+  "sellerCountry": {
+    "database": {
+      "columnName": "sellerCountry",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Seller Country",
+      "description": "Country of the seller",
+      "api_slug": "seller_country",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "24277565-2316-406c-a0d2-320dc522e36c"
+    }
+  },
+  "originalUrl": {
+    "database": {
+      "columnName": "originalUrl",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Original URL",
+      "description": "Original URL of the lead",
+      "api_slug": "original_url",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c26cef3d-e3fe-4a96-82c6-baa191c02772"
+    }
+  },
+  "followupDate1": {
+    "database": {
+      "columnName": "followupDate1",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Follow_up Date 1",
+      "description": "First follow_up date",
+      "api_slug": "followup_date_1",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "14f8363f-8cf7-43c2-a3cc-7e3f86ecb358"
+    }
+  },
+  "followupDate2": {
+    "database": {
+      "columnName": "followupDate2",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Follow_up Date 2",
+      "description": "Second follow_up date",
+      "api_slug": "followup_date_2",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "63f22c8c-b3f1-4ea0-a7f2-3a002307d6f7"
+    }
+  },
+  "followupDate3": {
+    "database": {
+      "columnName": "followupDate3",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Follow_up Date 3",
+      "description": "Third follow_up date",
+      "api_slug": "followup_date_3",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "44a701da-334c-4517-974d-217f04a92b47"
+    }
+  },
+  "followupDate4": {
+    "database": {
+      "columnName": "followupDate4",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Follow_up Date 4",
+      "description": "Fourth follow_up date",
+      "api_slug": "followup_date_4",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "0d116a9a-3938-4279-bab7-9e48ec537a97"
+    }
+  },
+  "archivedDate": {
+    "database": {
+      "columnName": "archivedDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Archived Date",
+      "description": "Date when the lead was archived",
+      "api_slug": "archived_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "0c5efd9d-70e8-44a2-94a7-dbd9639642fc"
+    }
+  },
+  "lastUpdatedById": {
+    "database": {
+      "columnName": "lastUpdatedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Last Updated By ID",
+      "description": "User who last updated the lead",
+      "api_slug": "last_updated_by_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "afdb81e5-2363-4aef-97be-62661b740838"
+    }
+  },
+  "lastUpdatedBy": {
+    "database": {
+      "columnName": "lastUpdatedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Last Updated By",
+      "description": "User who last updated the lead",
+      "api_slug": "last_updated_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "468af8ed-50f9-4bb6-bea5-d34d1962ea6a"
+    }
+  },
+  "responseType": {
+    "database": {
+      "columnName": "responseType",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Response Type",
+      "description": "Type of response",
+      "api_slug": "response_type",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4ca0ad7a-2538-47fa-bb05-60bee716c044"
+    }
+  },
+  "forApprovalDate": {
+    "database": {
+      "columnName": "forApprovalDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "For Approval Date",
+      "description": "Date when the lead was submitted for approval",
+      "api_slug": "for_approval_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "5beb4e7a-c9a2-4b89-8fe0-4b83a3bddde2"
+    }
+  },
+  "approvalById": {
+    "database": {
+      "columnName": "approvalBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Approval By ID",
+      "description": "User who approved the lead",
+      "api_slug": "approval_by_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "2e8ea131-c2c9-45a5-b21a-f7d58df9ac6d"
+    }
+  },
+  "approvalBy": {
+    "database": {
+      "columnName": "approvalBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Approval By",
+      "description": "User who approved the lead",
+      "api_slug": "approval_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "06d56a28-5cb4-470f-81a4-c21c381f229f"
+    }
+  },
+  "statusUpdatedDate": {
+    "database": {
+      "columnName": "statusUpdatedDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Status Updated Date",
+      "description": "Date when the status was last updated",
+      "api_slug": "status_updated_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d93fe15b-7301-4ef4-b8a6-a1e3d5001de6"
+    }
+  },
+  "isFollowUpSent": {
+    "database": {
+      "columnName": "isFollowUpSent",
+      "dataType": "boolean",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Is Follow_Up Sent",
+      "description": "Indicates if a follow_up was sent",
+      "api_slug": "is_follow_up_sent",
+      "type": "checkbox",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "70c302f6-3626-4c7e-9670-d9c14e8d0a90"
+    }
+  },
+  "hubspotDealId": {
+    "database": {
+      "columnName": "hubspotDealId",
+      "dataType": "bigint",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "HubSpot Deal ID",
+      "description": "ID of the deal in HubSpot",
+      "api_slug": "hubspot_deal_id",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c7a84dcb-bfee-4ff9-8fd0-d1fd2b3102cf"
+    }
+  },
+  "hubspotDealStageId": {
+    "database": {
+      "columnName": "hubspotDealStageId",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "HubSpot Deal Stage ID",
+      "description": "ID of the deal stage in HubSpot",
+      "api_slug": "hubspot_deal_stage_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b34afa07-f178-43a4-ac35-0200f965bf12"
+    }
+  },
+  "archivedById": {
+    "database": {
+      "columnName": "archivedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Archived By ID",
+      "description": "User who archived the lead",
+      "api_slug": "archived_by_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "33f2d9bb-a7db-4978-b5c1-effda3ac0638"
+    }
+  },
+  "archivedBy": {
+    "database": {
+      "columnName": "archivedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Archived By",
+      "description": "User who archived the lead",
+      "api_slug": "archived_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "e0e69a43-b32f-49f6-8567-7e8fcdcf8611"
+    }
+  },
+  "bookedById": {
+    "database": {
+      "columnName": "bookedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Booked By ID",
+      "description": "User who booked the lead",
+      "api_slug": "booked_by_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9520a320-e486-46c8-9203-431c554c9963"
+    }
+  },
+  "bookedBy": {
+    "database": {
+      "columnName": "bookedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Booked By",
+      "description": "User who booked the lead",
+      "api_slug": "booked_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "7e64faa9-87c3-4401-b7c8-c92556f373c4"
+    }
+  },
+  "responsedById": {
+    "database": {
+      "columnName": "responsedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Responded By ID",
+      "description": "User who responded to the lead",
+      "api_slug": "responded_by_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "990c4df7-0dc7-41cd-9a99-ece33ca6ca5b"
+    }
+  },
+  "responsedBy": {
+    "database": {
+      "columnName": "responsedBy",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Responded By",
+      "description": "User who responded to the lead",
+      "api_slug": "responded_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "f367eca9-2e6b-420b-9d61-097a2d45750e"
+    }
+  },
+  "deletedAt": {
+    "database": {
+      "columnName": "deletedAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Deleted At",
+      "description": "Date and time when the lead was deleted",
+      "api_slug": "deleted_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "91f3d41e-d660-433d-ab21-d9144a9cb357"
+    }
+  },
+  "lemlistDate": {
+    "database": {
+      "columnName": "lemlistDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lemlist Date",
+      "description": "Date related to Lemlist",
+      "api_slug": "lemlist_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "df4b6921-c38d-4d38-a1c6-2f7a5d395596"
+    }
+  },
+  "lemlistResponseDate": {
+    "database": {
+      "columnName": "lemlistResponseDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lemlist Response Date",
+      "description": "Date of response in Lemlist",
+      "api_slug": "lemlist_response_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e0764191-1fe1-4f93-b284-0e1a34829fbe"
+    }
+  },
+  "lemlistResponseType": {
+    "database": {
+      "columnName": "lemlistResponseType",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lemlist Response Type",
+      "description": "Type of response in Lemlist",
+      "api_slug": "lemlist_response_type",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "f84bf7ea-0504-4601-b0ec-faa05dce24ad"
+    }
+  },
+  "lemlistReplySeq": {
+    "database": {
+      "columnName": "lemlistReplySeq",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lemlist Reply Sequence",
+      "description": "Reply sequence in Lemlist",
+      "api_slug": "lemlist_reply_seq",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "665a6cbb-1b10-4678-a7a5-63cb8b448a25"
+    }
+  },
+  "linkedInProfilePictureURL": {
+    "database": {
+      "columnName": "linkedInProfilePictureURL",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "LinkedIn Profile Picture URL",
+      "description": "URL of the LinkedIn profile picture",
+      "api_slug": "linkedin_profile_picture_url",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7cb50a21-d24d-4a5f-bd15-e4f6b143e072"
+    }
+  },
+  "pitchedVia": {
+    "database": {
+      "columnName": "pitchedVia",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Pitched Via",
+      "description": "Channel through which the lead was pitched",
+      "api_slug": "pitched_via",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "927a56c7-6bd0-4a3f-9e0d-8561e9ff2d76"
+    }
+  },
+  "noOfAsin": {
+    "database": {
+      "columnName": "noOfAsin",
+      "dataType": "integer",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Number of ASINs",
+      "description": "Number of Amazon Standard Identification Numbers",
+      "api_slug": "no_of_asin",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "8784268f-706e-4e4c-a296-afb222162835"
+    }
+  },
+  "processedDate": {
+    "database": {
+      "columnName": "processedDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Processed Date",
+      "description": "Date when the lead was processed",
+      "api_slug": "processed_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "8a6c6a70-33aa-477b-a51c-2d95c14208f1"
+    }
+  },
+  "bookingSource": {
+    "database": {
+      "columnName": "bookingSource",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Booking Source",
+      "description": "Source of the booking",
+      "api_slug": "booking_source",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "8419b02e-b4d8-47ba-8fc6-e57341d59a48"
+    }
+  },
+  "recycledCount": {
+    "database": {
+      "columnName": "recycledCount",
+      "dataType": "integer",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Recycled Count",
+      "description": "Number of times the lead has been recycled",
+      "api_slug": "recycled_count",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "21728d97-2df4-4448-b0cb-96da0015445c"
+    }
+  },
+  "lastLead": {
+    "database": {
+      "columnName": "lastLead",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Last Lead",
+      "description": "Information about the last lead",
+      "api_slug": "last_lead",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "762c436f-34c2-4072-b37d-c2cecdfa9b46"
+    }
+  },
+  "bdRepId": {
+    "database": {
+      "columnName": "bdRep",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "BD Representative ID",
+      "description": "Business Development Representative",
+      "api_slug": "bd_rep_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "5c9f08b1-e5b3-4ec9-b268-775b28e7bcdf"
+    }
+  },
+  "bdRep": {
+    "database": {
+      "columnName": "bdRep",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "BD Representative",
+      "description": "Business Development Representative",
+      "api_slug": "bd_rep",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "record_reference": {
+          "allowed_objects": ["members"]
+        }
+      },
+      "relationship": {
+        "lookupTable": "users",
+        "lookupColumn": "userId",
+        "targetObject": "members"
+      },
+      "attribute_id": "ea8ada1b-077a-43f6-8675-804ff03aab26"
+    }
+  },
+  "dateTimeOfBDResponse": {
+    "database": {
+      "columnName": "dateTimeOfBDResponse",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Date Time of BD Response",
+      "description": "Date and time of Business Development response",
+      "api_slug": "date_time_of_bd_response",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7294a570-2382-462f-88af-c9cba02949ed"
+    }
+  },
+  "timeNotes": {
+    "database": {
+      "columnName": "timeNotes",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Time Notes",
+      "description": "Notes related to time",
+      "api_slug": "time_notes",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "df56c193-7383-451a-80f3-f1acee598440"
+    }
+  },
+  "recordId": {
+    "database": {},
+    "attio": {
+      "title": "Record ID",
+      "description": "",
+      "api_slug": "record_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": true,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": null
+        }
+      },
+      "attribute_id": "3a34f04b-0d59-4615-adb9-1db43b1f8531"
+    }
+  },
+  "createdBy": {
+    "database": {},
+    "attio": {
+      "title": "Created by",
+      "description": "",
+      "api_slug": "created_by",
+      "type": "actor-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": {
+        "type": "dynamic",
+        "template": "current-user"
+      },
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": null
+        }
+      },
+      "attribute_id": "46ad2ea6-8ba5-4283-9724-aab6c0f0c777"
+    }
+  },
+  "salesRep1": {
+    "database": {},
+    "attio": {
+      "title": "Sales Representative",
+      "description": "Sales representative assigned to the lead",
+      "api_slug": "sales_rep",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "d37a849f-f143-4fc7-a33c-85e07f80f034"
+    }
+  },
+  "processedBy1": {
+    "database": {},
+    "attio": {
+      "title": "Processed By",
+      "description": "User who processed the lead",
+      "api_slug": "processed_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "dd5fd42f-0c24-4700-8f42-e6170b18f25f"
+    }
+  },
+  "leadsRep1": {
+    "database": {},
+    "attio": {
+      "title": "Leads Representative",
+      "description": "UUID of the leads representative",
+      "api_slug": "leads_rep",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "b3e83ece-81e1-4530-aee5-8028973ae8cd"
+    }
+  },
+  "clientCreatedBy1": {
+    "database": {},
+    "attio": {
+      "title": "Client Created By",
+      "description": "UUID of the user who created the client",
+      "api_slug": "client_created_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "f1c1a596-13bc-40b6-be78-c25e0dc4ee7b"
+    }
+  },
+  "pitcher1": {
+    "database": {},
+    "attio": {
+      "title": "Pitcher",
+      "description": "User who pitched the lead",
+      "api_slug": "pitcher",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "9c84663b-7ae9-43da-b659-4f95dfcf0b5e"
+    }
+  },
+  "lastUpdatedBy1": {
+    "database": {},
+    "attio": {
+      "title": "Last Updated By",
+      "description": "User who last updated the lead",
+      "api_slug": "last_updated_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "468af8ed-50f9-4bb6-bea5-d34d1962ea6a"
+    }
+  },
+  "approvalBy1": {
+    "database": {},
+    "attio": {
+      "title": "Approval By",
+      "description": "User who approved the lead",
+      "api_slug": "approval_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "06d56a28-5cb4-470f-81a4-c21c381f229f"
+    }
+  },
+  "archivedBy1": {
+    "database": {},
+    "attio": {
+      "title": "Archived By",
+      "description": "User who archived the lead",
+      "api_slug": "archived_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "e0e69a43-b32f-49f6-8567-7e8fcdcf8611"
+    }
+  },
+  "bookedBy1": {
+    "database": {},
+    "attio": {
+      "title": "Booked By",
+      "description": "User who booked the lead",
+      "api_slug": "booked_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "7e64faa9-87c3-4401-b7c8-c92556f373c4"
+    }
+  },
+  "respondedBy": {
+    "database": {},
+    "attio": {
+      "title": "Responded By",
+      "description": "User who responded to the lead",
+      "api_slug": "responded_by",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "f367eca9-2e6b-420b-9d61-097a2d45750e"
+    }
+  },
+  "bdRep1": {
+    "database": {},
+    "attio": {
+      "title": "BD Representative",
+      "description": "Business Development Representative",
+      "api_slug": "bd_rep",
+      "type": "record-reference",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {
+        "currency": {
+          "default_currency_code": null,
+          "display_type": null
+        },
+        "record_reference": {
+          "allowed_object_ids": ["c3a9bb82-ec1a-431e-99fe-459da161d794"]
+        }
+      },
+      "attribute_id": "ea8ada1b-077a-43f6-8675-804ff03aab26"
+    }
+  }
+}

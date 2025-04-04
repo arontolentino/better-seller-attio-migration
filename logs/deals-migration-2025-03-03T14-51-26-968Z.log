@@ -1,0 +1,42 @@
+2025-03-03T14:51:26.969Z info: Column leadId has multiple Attio mappings:
+2025-03-03T14:51:26.969Z info:   - leadId (Lead ID): text
+2025-03-03T14:51:26.969Z info:   - lead (Lead): record-reference (relationship)
+2025-03-03T14:51:26.969Z info: Column salesRepId has multiple Attio mappings:
+2025-03-03T14:51:26.969Z info:   - salesRepId (Sales Representative ID): text
+2025-03-03T14:51:26.969Z info:   - salesRep (Sales Representative): record-reference (relationship)
+2025-03-03T14:51:26.969Z info: Column leadRepId has multiple Attio mappings:
+2025-03-03T14:51:26.969Z info:   - leadRepId (Lead Representative ID): text
+2025-03-03T14:51:26.970Z info:   - leadRep (Lead Representative): record-reference (relationship)
+2025-03-03T14:51:26.970Z info: Column accountManager has multiple Attio mappings:
+2025-03-03T14:51:26.970Z info:   - accountManagerId (Account Manager ID): text
+2025-03-03T14:51:26.970Z info:   - accountManager (Account Manager): record-reference (relationship)
+2025-03-03T14:51:26.970Z info: Column salesAdminId has multiple Attio mappings:
+2025-03-03T14:51:26.970Z info:   - salesAdminId (Sales Admin ID): text
+2025-03-03T14:51:26.970Z info:   - salesAdmin (Sales Admin): record-reference (relationship)
+2025-03-03T14:51:26.970Z info: Column agencyClientId has multiple Attio mappings:
+2025-03-03T14:51:26.970Z info:   - agencyClientId (Agency Client ID): text
+2025-03-03T14:51:26.970Z info:   - agencyClient (Agency Client): record-reference (relationship)
+2025-03-03T14:51:26.970Z info: Column undefined has multiple Attio mappings:
+2025-03-03T14:51:26.970Z info:   - recordId (Record ID): text
+2025-03-03T14:51:26.970Z info:   - createdAt1 (Created at): timestamp
+2025-03-03T14:51:26.970Z info:   - createdBy (Created by): actor-reference
+2025-03-03T14:51:27.072Z info: Connected to PostgreSQL database: postgres
+2025-03-03T14:51:27.108Z info: Found relationship: lead -> {"lookupTable":"leads","lookupColumn":"leadId","targetObject":"leads"}
+2025-03-03T14:51:27.168Z info: Found relationship: salesRep -> {"lookupTable":"users","lookupColumn":"userId","targetObject":"members"}
+2025-03-03T14:51:27.225Z info: Found relationship: leadRep -> {"lookupTable":"users","lookupColumn":"userId","targetObject":"members"}
+2025-03-03T14:51:27.284Z info: Found relationship: accountManager -> {"lookupTable":"users","lookupColumn":"userId","targetObject":"members"}
+2025-03-03T14:51:27.343Z info: Found relationship: salesAdmin -> {"lookupTable":"users","lookupColumn":"userId","targetObject":"members"}
+2025-03-03T14:51:27.402Z info: Found relationship: agencyClient -> {"lookupTable":"agencyClients","lookupColumn":"agencyClientId","targetObject":"companies"}
+2025-03-03T14:51:27.462Z info: Found 6 relationships:
+2025-03-03T14:51:27.462Z info: - Lead (leadId) -> leads.leadId
+2025-03-03T14:51:27.463Z info: - Sales Representative (salesRepId) -> users.userId
+2025-03-03T14:51:27.463Z info: - Lead Representative (leadRepId) -> users.userId
+2025-03-03T14:51:27.463Z info: - Account Manager (accountManager) -> users.userId
+2025-03-03T14:51:27.463Z info: - Sales Admin (salesAdminId) -> users.userId
+2025-03-03T14:51:27.463Z info: - Agency Client (agencyClientId) -> agencyClients.agencyClientId
+2025-03-03T14:51:27.495Z info: Limiting to 1 records (out of 10456 total)
+2025-03-03T14:51:27.496Z info: Using concurrency limit: 20
+2025-03-03T14:51:27.496Z info: Processing batch: 1 to 1
+2025-03-03T14:51:27.664Z info: Using joined relationship for Lead=51d3d86e-0ed2-43cb-a613-d903092a3623 to Attio ID e34e0ac8-2a29-4b60-a1da-3e3a2524dbf4
+2025-03-03T14:51:27.664Z info: Looking up record with salesClientId=030497f6-8c34-464a-9d20-d36d82a0aaaa
+2025-03-03T14:51:27.971Z info: Object or endpoint not found (404). Continuing without retries.

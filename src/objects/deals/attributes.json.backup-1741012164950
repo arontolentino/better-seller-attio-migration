@@ -1,0 +1,814 @@
+{
+  "salesClientId": {
+    "database": {
+      "columnName": "salesClientId",
+      "dataType": "uuid",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Sales Client ID",
+      "description": "Unique identifier for the sales client",
+      "api_slug": "sales_client_id",
+      "type": "text",
+      "is_required": true,
+      "is_unique": true,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1a46fbe9-a7f6-4feb-b6c6-dc1ae70fb2a1"
+    }
+  },
+  "leadId": {
+    "database": {
+      "columnName": "leadId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lead ID",
+      "description": "ID of the associated lead",
+      "api_slug": "lead_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "5a2f3598-b8e3-49c4-aa7f-352a840829ad"
+    }
+  },
+  "salesRepId": {
+    "database": {
+      "columnName": "salesRepId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Sales Representative ID",
+      "description": "Sales representative assigned to the client",
+      "api_slug": "sales_rep_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c02b62ad-02c5-4bf0-ae75-81b4246d0ea8"
+    }
+  },
+  "leadRepId": {
+    "database": {
+      "columnName": "leadRepId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Lead Representative ID",
+      "description": "Lead representative assigned to the client",
+      "api_slug": "lead_rep_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "15bc5733-0f3d-4100-9316-007a9680dfc0"
+    }
+  },
+  "source": {
+    "database": {
+      "columnName": "source",
+      "dataType": "USER_DEFINED",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Source",
+      "description": "Source of the sales client",
+      "api_slug": "source",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "17432655-e9e4-404d-9cd7-e906332fd1bb"
+    }
+  },
+  "status": {
+    "database": {
+      "columnName": "status",
+      "dataType": "USER_DEFINED",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Status",
+      "description": "Current status of the sales client",
+      "api_slug": "status",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "76004011-6394-43b2-9328-c5b4320c636c"
+    }
+  },
+  "decisionMaker": {
+    "database": {
+      "columnName": "decisionMaker",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Decision Maker",
+      "description": "Name of the decision maker",
+      "api_slug": "decision_maker",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "c98bcab8-807c-4ac1-ac40-5792c1d2b9f5"
+    }
+  },
+  "email": {
+    "database": {
+      "columnName": "email",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Email",
+      "description": "Email address of the client",
+      "api_slug": "email",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "50772849-12fe-40d7-9cb7-0fbb9aadce43"
+    }
+  },
+  "accountManager": {
+    "database": {
+      "columnName": "accountManager",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Account Manager ID",
+      "description": "Account manager assigned to the client",
+      "api_slug": "account_manager_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "d58cb55a-ae6d-4f48-89c8-030d4a82693d"
+    }
+  },
+  "aboutUs": {
+    "database": {
+      "columnName": "aboutUs",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "About Us",
+      "description": "Information about the client",
+      "api_slug": "about_us",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b3aa261d-75d0-4613-b34a-dffb2119019e"
+    }
+  },
+  "goals": {
+    "database": {
+      "columnName": "goals",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Goals",
+      "description": "Client's goals",
+      "api_slug": "goals",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b09b1f45-b7e4-4a02-b4bf-e61168855c03"
+    }
+  },
+  "painPoints": {
+    "database": {
+      "columnName": "painPoints",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Pain Points",
+      "description": "Client's pain points",
+      "api_slug": "pain_points",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "cfebc233-02dd-4096-b248-79fd9e1473bb"
+    }
+  },
+  "mainIssue": {
+    "database": {
+      "columnName": "mainIssue",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Main Issue",
+      "description": "Main issue faced by the client",
+      "api_slug": "main_issue",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "5118ce72-652d-499f-a153-946434d6438a"
+    }
+  },
+  "avgMonthlySalesOnAmazon": {
+    "database": {
+      "columnName": "avgMonthlySalesOnAmazon",
+      "dataType": "numeric",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Average Monthly Sales on Amazon",
+      "description": "Average monthly sales on Amazon",
+      "api_slug": "avg_monthly_sales_on_amazon",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "f1c7e7bf-c9b0-4bf0-866e-77421cb307ed"
+    }
+  },
+  "avgMonthlySalesOutsideAmazon": {
+    "database": {
+      "columnName": "avgMonthlySalesOutsideAmazon",
+      "dataType": "numeric",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Average Monthly Sales Outside Amazon",
+      "description": "Average monthly sales outside of Amazon",
+      "api_slug": "avg_monthly_sales_outside_amazon",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "8fc187dd-bcc5-4279-ba89-18e11e7d5f92"
+    }
+  },
+  "createdAt": {
+    "database": {
+      "columnName": "createdAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "DB Created At",
+      "description": "Original database timestamp when the record was created",
+      "api_slug": "db_created_at",
+      "type": "timestamp",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {}
+    }
+  },
+  "updatedAt": {
+    "database": {
+      "columnName": "updatedAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": false,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Updated At",
+      "description": "Date and time when the record was last updated",
+      "api_slug": "updated_at",
+      "type": "timestamp",
+      "is_required": true,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "f4037bf0-173f-41a5-93c4-a2ffbee2cb1a"
+    }
+  },
+  "deletedAt": {
+    "database": {
+      "columnName": "deletedAt",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Deleted At",
+      "description": "Date and time when the record was deleted",
+      "api_slug": "deleted_at",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "9415b407-f581-433d-8f06-e83df31cad41"
+    }
+  },
+  "salesAdminId": {
+    "database": {
+      "columnName": "salesAdminId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "users",
+      "foreignKeyReferencedColumn": "userId"
+    },
+    "attio": {
+      "title": "Sales Admin ID",
+      "description": "Sales administrator assigned to the client",
+      "api_slug": "sales_admin_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1fe5d6ce-0ba8-43c7-8717-3f1e5fdf7405"
+    }
+  },
+  "serviceAgreementSentDate": {
+    "database": {
+      "columnName": "serviceAgreementSentDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Service Agreement Sent Date",
+      "description": "Date when the service agreement was sent",
+      "api_slug": "service_agreement_sent_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "2143a6d0-2f22-4a96-b082-6b451e5e0d9e"
+    }
+  },
+  "serviceAgreementSignedDate": {
+    "database": {
+      "columnName": "serviceAgreementSignedDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Service Agreement Signed Date",
+      "description": "Date when the service agreement was signed",
+      "api_slug": "service_agreement_signed_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "0c100969-7852-44ac-81e6-2664d7620d31"
+    }
+  },
+  "serviceAgreementLink": {
+    "database": {
+      "columnName": "serviceAgreementLink",
+      "dataType": "text",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Service Agreement Link",
+      "description": "Link to the service agreement",
+      "api_slug": "service_agreement_link",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b40acbe2-8d2a-481d-877b-94d9b88b37cd"
+    }
+  },
+  "serviceType": {
+    "database": {
+      "columnName": "serviceType",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Service Type",
+      "description": "Type of service provided",
+      "api_slug": "service_type",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "8da3c7ae-2ed8-4adc-8979-c771ff06eb38"
+    }
+  },
+  "invoiceSentDate": {
+    "database": {
+      "columnName": "invoiceSentDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Invoice Sent Date",
+      "description": "Date when the invoice was sent",
+      "api_slug": "invoice_sent_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "6dac62af-9634-4e9d-919b-68707b2d8e35"
+    }
+  },
+  "totalAmountPaid": {
+    "database": {
+      "columnName": "totalAmountPaid",
+      "dataType": "double precision",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Total Amount Paid",
+      "description": "Total amount paid by the client",
+      "api_slug": "total_amount_paid",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "e5ff78a5-183f-4cb0-9301-d379460a096c"
+    }
+  },
+  "closedDealDate": {
+    "database": {
+      "columnName": "closedDealDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Closed Deal Date",
+      "description": "Date when the deal was closed",
+      "api_slug": "closed_deal_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "655fca63-63a5-4bd3-b31f-3f8a2a14abcf"
+    }
+  },
+  "quotesSentDate": {
+    "database": {
+      "columnName": "quotesSentDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Quotes Sent Date",
+      "description": "Date when quotes were sent",
+      "api_slug": "quotes_sent_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "32dccf85-449d-481c-ac9c-f436377b5b0f"
+    }
+  },
+  "invoicePaidDate": {
+    "database": {
+      "columnName": "invoicePaidDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Invoice Paid Date",
+      "description": "Date when the invoice was paid",
+      "api_slug": "invoice_paid_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "4cdc62cb-3e7f-425f-aa62-b5bc22bb9c1c"
+    }
+  },
+  "firstCallDate": {
+    "database": {
+      "columnName": "firstCallDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "First Call Date",
+      "description": "Date of the first call",
+      "api_slug": "first_call_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "eb0f7ee5-0a11-482e-a77c-4146e127c6cd"
+    }
+  },
+  "secondCallDate": {
+    "database": {
+      "columnName": "secondCallDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Second Call Date",
+      "description": "Date of the second call",
+      "api_slug": "second_call_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "1ef2ee49-b609-4973-8e71-edcbf278217e"
+    }
+  },
+  "thirdCallDate": {
+    "database": {
+      "columnName": "thirdCallDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Third Call Date",
+      "description": "Date of the third call",
+      "api_slug": "third_call_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "7af7367f-cf08-4aaf-baca-e134bbac8a3b"
+    }
+  },
+  "fourthCallDate": {
+    "database": {
+      "columnName": "fourthCallDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Fourth Call Date",
+      "description": "Date of the fourth call",
+      "api_slug": "fourth_call_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "a9efd523-9fdc-4097-a3f2-4e48e9f63549"
+    }
+  },
+  "agencyClientId": {
+    "database": {
+      "columnName": "agencyClientId",
+      "dataType": "uuid",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": true,
+      "foreignKeyReferencedSchema": "public",
+      "foreignKeyReferencedTable": "agencyClients",
+      "foreignKeyReferencedColumn": "agencyClientId"
+    },
+    "attio": {
+      "title": "Agency Client ID",
+      "description": "ID of the associated agency client",
+      "api_slug": "agency_client_id",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "42bb8cbf-2162-4407-aca9-00df8cc014bc"
+    }
+  },
+  "displayName": {
+    "database": {
+      "columnName": "displayName",
+      "dataType": "character varying",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Display Name",
+      "description": "Display name for the client",
+      "api_slug": "display_name",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "14682a39-f05e-43c1-b777-d4563bb3d54b"
+    }
+  },
+  "proposalContent": {
+    "database": {
+      "columnName": "proposalContent",
+      "dataType": "jsonb",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Proposal Content",
+      "description": "Content of the proposal",
+      "api_slug": "proposal_content",
+      "type": "text",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "edfe7b6b-cde8-420f-8267-17f39973c099"
+    }
+  },
+  "ppcSpend": {
+    "database": {
+      "columnName": "ppcSpend",
+      "dataType": "numeric",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "PPC Spend",
+      "description": "Pay_per_click spend",
+      "api_slug": "ppc_spend",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "b5404c3c-fc47-4984-be8c-a2647d3c5da0"
+    }
+  },
+  "avgACOS": {
+    "database": {
+      "columnName": "avgACOS",
+      "dataType": "numeric",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Average ACOS",
+      "description": "Average Advertising Cost of Sales",
+      "api_slug": "avg_acos",
+      "type": "number",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "5150cd7f-0ef8-4f1e-b4b2-03df9a215ccb"
+    }
+  },
+  "lostDate": {
+    "database": {
+      "columnName": "lostDate",
+      "dataType": "timestamp with time zone",
+      "isNullable": true,
+      "isUnique": false,
+      "hasForeignKey": false
+    },
+    "attio": {
+      "title": "Lost Date",
+      "description": "Date when the client was lost",
+      "api_slug": "lost_date",
+      "type": "timestamp",
+      "is_required": false,
+      "is_unique": false,
+      "is_multiselect": false,
+      "default_value": null,
+      "config": {},
+      "attribute_id": "930bac8e-83bb-462d-a836-f3c13cfc0cac"
+    }
+  }
+}
